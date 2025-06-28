@@ -2,7 +2,7 @@
 
 A simple banking service implementation built in Java as part of Skypay's technical test.
 
-## 📋 Requirements Met
+## 📋 Requirements
 
 This implementation fulfills all the technical requirements:
 
@@ -20,7 +20,7 @@ This implementation fulfills all the technical requirements:
 - **`AccountService`**: Interface defining the banking contract
 - **`Account`**: Main implementation with business logic
 - **`Transaction`**: Data model for storing transaction history
-- **`InteractiveBanking`**: Interactive terminal application for testing
+- **`Test`**: Interactive terminal application for testing
 
 ### Design Principles
 
@@ -42,7 +42,7 @@ This implementation fulfills all the technical requirements:
 javac *.java
 
 # Run the interactive banking application
-java InteractiveBanking
+java Test
 ```
 
 ### Available Commands
